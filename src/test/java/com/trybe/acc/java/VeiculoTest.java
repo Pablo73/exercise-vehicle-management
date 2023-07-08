@@ -1,7 +1,6 @@
 package com.trybe.acc.java;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
-
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
@@ -11,7 +10,7 @@ class VeiculoTest {
   void testCalcularConsumoCombustivelCarro() {
     Carro carro = new Carro("Ford", "Fiesta", 2021, "Gasolina", 40, 5);
     double consumo = carro.calcularConsumoCombustivel(100);
-    assertEquals(10, consumo, 0.001);
+    assertEquals(10.0, consumo, 0.001);
   }
 
   @Test
@@ -31,4 +30,3 @@ class VeiculoTest {
   }
 
 }
-
