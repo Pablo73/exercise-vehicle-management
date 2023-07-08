@@ -7,7 +7,7 @@ package com.trybe.acc.java;
 public class Caminhao extends VeiculoBase {
 
   /**
-   * Número de passageiros do caminhao.
+   * Capacidade de carga do caminhão.
    */
   private int capacidadeCarga;
 

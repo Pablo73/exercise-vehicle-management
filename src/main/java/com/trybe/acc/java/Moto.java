@@ -7,7 +7,7 @@ package com.trybe.acc.java;
 public class Moto extends VeiculoBase {
 
   /**
-   * Número de passageiros do moto.
+   * Tipo de moto.
    */
   private String tipoDeMoto;
 
